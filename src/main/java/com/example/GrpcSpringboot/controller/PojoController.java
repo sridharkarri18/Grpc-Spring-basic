@@ -20,4 +20,9 @@ public class PojoController {
         students.add(new Student(3, "laya"));
         return students;
     }
+
+    @GetMapping("/al")
+    public String message(){
+        return "hai";
+    }
 }
