@@ -23,6 +23,8 @@ public class PojoController {
 
     @GetMapping("/al")
     public String message(){
-        return "hai";
+        return "hai Good mrng";
     }
+
+
 }
