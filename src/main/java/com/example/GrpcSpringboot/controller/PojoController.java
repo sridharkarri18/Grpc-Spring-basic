@@ -21,10 +21,7 @@ public class PojoController {
         return students;
     }
 
-    @GetMapping("/al")
-    public String message(){
-        return "hai Good mrng";
-    }
+
 
 
 }
