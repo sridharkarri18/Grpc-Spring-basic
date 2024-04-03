@@ -21,6 +21,13 @@ public class PojoController {
         return students;
     }
 
+    @GetMapping("all")
+    public String rods(){
+        return "Destination";
+    }
+
+
+
 
 
 
